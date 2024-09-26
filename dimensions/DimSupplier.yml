@@ -33,5 +33,4 @@ level_attributes:
     key_columns:
       - productid
     name_column: suppliername
-  - unique_name: products_empty_attr
 type: standard

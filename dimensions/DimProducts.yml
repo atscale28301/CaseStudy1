@@ -24,12 +24,4 @@ level_attributes:
     key_columns:
       - productid
     name_column: productname
-  - unique_name: products_empty_attr
-    label: products_empty_attr
-    contains_unique_names: false
-    dataset: products
-    is_hidden: true
-    is_unique_key: false
-    key_columns: []
-    name_column: ''
 type: standard
