@@ -7,6 +7,7 @@ hierarchies:
     levels:
       - unique_name: productcategory
       - unique_name: productname
+      - unique_name: productid
 level_attributes:
   - unique_name: productcategory
     label: product category
@@ -24,4 +25,13 @@ level_attributes:
     key_columns:
       - productid
     name_column: productname
+  - unique_name: productid
+    label: productid
+    contains_unique_names: false
+    dataset: products
+    is_unique_key: false
+    key_columns:
+      - productid
+    name_column: productid
+relationships: []
 type: standard
